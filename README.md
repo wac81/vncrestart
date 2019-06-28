@@ -1,0 +1,2 @@
+# vncrestart
+vnc restart shell
