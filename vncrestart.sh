@@ -16,6 +16,7 @@ for filename in $filelist; do
         echo "重启端口号：$part2......"
         echo "************************"
         vncserver -kill :$part2
+        sleep 1
         # 请自行修改分辨率
         vncserver :${part2} -geometry 1920x1080
         exit
